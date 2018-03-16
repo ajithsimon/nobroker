@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Dashboard - Home</title>
+
+        <!-- Bootstrap css-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!--Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Propeller css -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Basic nav menu which will remain fixed at the top -->
+        <nav class="navbar navbar-inverse navbar-fixed-top pmd-navbar pmd-z-depth">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="javascript:void(0);" class="navbar-brand navbar-brand-custome">Dashboard</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+            <div class="pmd-sidebar-overlay"></div>
+        </nav>
+        <div class="body-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <!-- Default card starts -->
+                        <div class="pmd-card pmd-card-default" style="background: #eeefff;box-shadow: none;margin-bottom: 0">
+                            <div class="pmd-card-title">
+                                <div class="media-body media-left">
+                                    <span class="badge badge-info">Todo List</span>
+                                </div>
+                                <div class="media-body media-middle text-right">
+                                    <button class="btn-copy btn btn-sm pmd-btn-flat pmd-ripple-effect btn-info" type="button"><i class="material-icons pmd-xs">add_circle_outline</i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pmd-card pmd-card-default" id="items1" style="background: #eeefff;box-shadow: none;min-height: 300px;">
+                            <div class="pmd-card-body closable-div" id="pasteDiv">
+                                <div class="pmd-card pmd-card-primary pmd-z-depth" id="copyDiv">
+                                    <!-- Card header -->
+                                    <div class="pmd-card-title">
+                                        <div class="media-body media-middle">
+                                            Task-1
+                                        </div>
+                                        <div class="media-body media-middle text-right">
+                                            <button  class="closable btn btn-sm pmd-btn-flat pmd-ripple-effect btn-info" type="button"><i class="material-icons pmd-xs">delete</i></button>
+                                        </div>
+                                    </div>
+                                    <div class="pmd-card-body">
+                                        Cards provide context and an entry point to more robust information and views. Don't overload cards with extraneous information or actions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Default card ends -->
+                    </div>
+                    <div class="col-sm-3">
+                        <!-- Default card starts -->
+                        <div class="pmd-card pmd-card-default" style="background: #eeefff;box-shadow: none;margin-bottom: 0">
+                            <div class="pmd-card-title">
+                                <div class="media-body media-left">
+                                    <span class="badge badge-success">In Progress</span>
+                                </div>
+                                <div class="media-body media-middle text-right">
+                                    <button class="btn-copy btn btn-sm pmd-btn-flat pmd-ripple-effect btn-info" type="button"><i class="material-icons pmd-xs">add_circle_outline</i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pmd-card pmd-card-default" id="items2" style="background: #eeefff;box-shadow: none;min-height: 300px;">
+                            <div class="pmd-card-body closable-div pasteDiv">
+                                <div class="pmd-card pmd-card-primary pmd-z-depth">
+                                    <!-- Card header -->
+                                    <div class="pmd-card-title">
+                                        <div class="media-body media-middle">
+                                            Task-2
+                                        </div>
+                                        <div class="media-body media-middle text-right">
+                                            <button  class="closable btn btn-sm pmd-btn-flat pmd-ripple-effect btn-info" type="button"><i class="material-icons pmd-xs">delete</i></button>
+
+                                        </div>
+                                    </div>
+                                    <div class="pmd-card-body">
+                                        Cards provide context and an entry point to more robust information and views. Don't overload cards with extraneous information or actions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Default card ends -->
+                    </div>
+                    <div class="col-sm-3">
+                        <!-- Default card starts -->
+                        <div class="pmd-card pmd-card-default" style="background: #eeefff;box-shadow: none;margin-bottom: 0">
+                            <div class="pmd-card-title">
+                                <div class="media-body media-left">
+                                    <span class="badge badge-error">Done</span>
+                                </div>
+                                <div class="media-body media-middle text-right">
+                                    <button class="btn-copy btn btn-sm pmd-btn-flat pmd-ripple-effect btn-info" type="button"><i class="material-icons pmd-xs">add_circle_outline</i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pmd-card pmd-card-default" id="items3" style="background: #eeefff;box-shadow: none;min-height: 300px;">
+                            <div class="pmd-card-body closable-div">
+                                <div class="pmd-card pmd-card-primary pmd-z-depth">
+                                    <!-- Card header -->
+                                    <div class="pmd-card-title">
+                                        <div class="media-body media-middle">
+                                            Task-3
+                                        </div>
+                                        <div class="media-body media-middle text-right">
+                                            <button  class="closable btn btn-sm pmd-btn-flat pmd-ripple-effect btn-info" type="button"><i class="material-icons pmd-xs">delete</i></button>
+
+                                        </div>
+                                    </div>
+                                    <div class="pmd-card-body">
+                                        Cards provide context and an entry point to more robust information and views. Don't overload cards with extraneous information or actions.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Default card ends -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery before Propeller.js -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+        <script type="text/javascript" src="http://www.pureexample.com/js/lib/jquery.ui.touch-punch.min.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/propeller.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </body>
+</html>
